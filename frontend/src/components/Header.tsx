@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useAppContext } from "../contexts/AppContext";
 import SignOutButton from "./SignOutButton";
-import video from "../../../SPD=video2.mp4"; 
+import video from "../../../assets/SPD=video2.mp4"; 
 import { useRef } from "react";
 import Typed from "typed.js";
 
@@ -43,7 +43,7 @@ const Header = () => {
 
       <div className="comp py-6 z-10">
         <div className="container mx-auto flex justify-between">
-          <span className="text-3xl  font-bold tracking-tight" style={{ fontFamily: 'blanka' }}>
+          <span className="text-3xl  font-bold tracking-tight" style={{ fontFamily: 'BlankaCustom' }}>
             <Link to="/">C A M P U S N E S T</Link>
           </span>
           <span className="flex space-x-2">
@@ -76,10 +76,10 @@ const Header = () => {
         <br /><br />
         <div className="comp pb-10">
           <div className="container mx-auto flex flex-col gap-2">
-            <h1 className="text-5xl font-bold pb-2 pt-3" style={{ fontFamily: 'Hero' }}>
+            <h1 className="text-5xl font-bold pb-2 pt-3" style={{ fontFamily: 'HeroCustom' }}>
               Discover Your Ideal Student <span className="role"></span>
             </h1>
-            <p className="text-2xl " style={{ fontFamily: 'Hero' }}>
+            <p className="text-2xl " style={{ fontFamily: 'HeroCustom' }}>
               <b>Locate Cost-Effective Lodgings for Your Educational Escape . . .</b>
             </p>
           </div>

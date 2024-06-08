@@ -32,3 +32,23 @@
 .margin{
     margin-bottom: 70px !important;
 }
+@font-face {
+    font-family: "SegoeUICustom";
+    src: url("../src/fonts/SegoeUI.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "BlankaCustom";
+    src: url("../src/fonts/Blanka.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "HeroCustom";
+    src: url("../src/fonts/Hero-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
