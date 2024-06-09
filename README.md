@@ -9,7 +9,7 @@ Node.js must be installed on the system.
 ## Cloning the Repository
 
 ```bash
-git clone https://github.com/anuragpsarmah/CampusNest.git
+git clone https://github.com/hrishabh-16/Campus_Nest
 cd CampusNest
 ```
 
